@@ -1,0 +1,35 @@
+.footer {
+  background-color: var(--ai-bg-dark);
+  padding: 0.2cm;
+  text-align: center;
+  margin-top: 2rem;
+  border-top: var(--ai-border);
+  position: relative;
+  font-size:3px;
+}
+
+.footer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--ai-primary),
+    transparent
+  );
+}
+
+.footer-content {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.footer p {
+  color: var(--ai-text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}

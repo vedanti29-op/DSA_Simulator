@@ -1,0 +1,5 @@
+{
+  "name": "AI-Powered Algorithm Visualizer",
+  "description": "An interactive platform for visualizing data structures and algorithms like Binary Search Trees. Features step-by-step animations, user-driven controls, and AI-powered explanations from Gemini to make complex concepts easy to understand.",
+  "requestFramePermissions": []
+}
